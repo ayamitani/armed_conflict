@@ -6,13 +6,10 @@ source(here("scripts", "prepare_conflict.R"))
 
 
 #put all data frames into list
-alllist <- list(confdata, wbdata, disasters)
+alllist <- list(covs, confdata, wbdata, disasters)
 
 #merge all data frames in list
-alllist |> reduce(full_join, by = c('ISO', 'year')) -> finaldata0
-
-finaldata <- covs |>
-  left_join(finaldata0, by = c('ISO', 'year'))
+alllist |> reduce(left_join, by = c('ISO', 'year')) -> finaldata
 
 # need to fill in NAs with 0's for armconf1, drought, earthquake
 finaldata <- finaldata |>
@@ -22,3 +19,7 @@ finaldata <- finaldata |>
          totdeath = replace_na(totdeath, 0))
 
 write.csv(finaldata, file = here("data", "finaldata.csv"), row.names = FALSE)
+
+dim(finaldata)
+names(finaldata)
+length(unique(finaldata$ISO))

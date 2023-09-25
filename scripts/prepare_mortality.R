@@ -33,3 +33,4 @@ wbdata$ISO <- countrycode(wbdata$Country.Name,
                           destination = "iso3c")
 wbdata <- wbdata |>
   dplyr::select(-Country.Name)
+
