@@ -1,4 +1,4 @@
-disaster <- read.csv(here("raw data", "IDD", "disaster.csv"), header = TRUE)
+disaster <- read.csv(here("data", "original", "disaster.csv"), header = TRUE)
 
 ### select rows for earthquake and drought and columns for year, country, ISO, disaster type
 disaster |>
