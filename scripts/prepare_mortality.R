@@ -1,7 +1,7 @@
 matmor0 <- read.csv(here("data", "original", "maternalmortality.csv"), header = TRUE)
 neomor0 <- read.csv(here("data", "original", "neonatalmortality.csv"), header = TRUE)
 infmor0 <- read.csv(here("data", "original", "infantmortality.csv"), header = TRUE)
-un5mor0 <- read.csv(here("data", "original", "maternalmortality.csv"), header = TRUE)
+un5mor0 <- read.csv(here("data", "original", "under5mortality.csv"), header = TRUE)
 
 ### write a function that does the above manipulation to each data
 wbfun <- function(dataname, varname){

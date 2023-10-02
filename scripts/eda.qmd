@@ -1,0 +1,36 @@
+---
+title: "Explanatory analysis"
+format: html
+editor: source
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+source("../.Rprofile")
+```
+
+## Mortality trend for 2000-2019
+
+```{r}
+load(here("data", "finaldata.Rda"))
+finaldata |>
+  ggplot(aes(x = year, y = NeoMor, group = ISO)) +
+  geom_line(color = "skyblue") +
+  xlim(c(2000,2019)) +
+  labs(y = "Neonatal mortality", x = "Year") + 
+  theme_bw()
+```
+
+## Mortality trend for 2000-2019 by OECD
+
+```{r}
+load(here("data", "finaldata.Rda"))
+finaldata |>
+  ggplot(aes(x = year, y = MatMor, group = ISO)) +
+  geom_line(aes(color = as.factor(armconf1)), alpha = 0.5) +
+  xlim(c(2000,2019)) +
+  scale_y_continuous(trans='log10') + 
+  labs(y = "Maternal mortality", x = "Year", color = "Armed conflict") + 
+  theme_bw()
+```
