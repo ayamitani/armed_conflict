@@ -13,9 +13,9 @@ source("../.Rprofile")
 ## Mortality trend for 2000-2019
 
 ```{r}
-load(here("data", "finaldata.Rda"))
+finaldata <- read.csv(here("data", "finaldata.csv"), header = TRUE)
 finaldata |>
-  ggplot(aes(x = year, y = NeoMor, group = ISO)) +
+  ggplot(aes(x = year, y = neomor, group = ISO)) +
   geom_line(color = "skyblue") +
   xlim(c(2000,2019)) +
   labs(y = "Neonatal mortality", x = "Year") + 
@@ -25,9 +25,9 @@ finaldata |>
 ## Mortality trend for 2000-2019 by OECD
 
 ```{r}
-load(here("data", "finaldata.Rda"))
+#finaldata <- read.csv(here("data", "finaldata.csv"), header = TRUE)
 finaldata |>
-  ggplot(aes(x = year, y = MatMor, group = ISO)) +
+  ggplot(aes(x = year, y = matmor, group = ISO)) +
   geom_line(aes(color = as.factor(armconf1)), alpha = 0.5) +
   xlim(c(2000,2019)) +
   scale_y_continuous(trans='log10') + 
