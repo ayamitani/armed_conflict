@@ -1,5 +1,5 @@
 ---
-title: "Create Table 1 in PDF"
+title: "Create Table 1 in PDF (One way to include header for armed conflict)"
 format: pdf
 ---
 
@@ -53,12 +53,14 @@ table1(~ GDP + OECDf + popdens + urban + agedep + male_edu + temp + earthquakef 
 
 
 ```{r}
+#| echo: FALSE
 t1kable(mytable1) %>%
   add_header_above(c(" "=2, "Armed conflict" = 2))
 ```
 
 
 ```{r}
+#| echo: FALSE
 ft1 <- t1flex(mytable1) 
 add_header_row(ft1,
   values = c("", "Armed conflict"),
