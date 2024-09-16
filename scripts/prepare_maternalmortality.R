@@ -10,7 +10,7 @@
 #Finally, make sure the `year` variable is stored as numeric. 
 
 
-matmor <- read.csv(here("raw data", "WB", "maternalmortality.csv"), header = TRUE)
+matmor <- read.csv(here("data", "original", "maternalmortality.csv"), header = TRUE)
 matmor <- matmor |>
   dplyr::select(Country.Name, X2000:X2019) |>
   pivot_longer(cols = starts_with("X"),
