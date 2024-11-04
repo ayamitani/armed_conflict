@@ -84,7 +84,7 @@ keepvars <- list("armconf1" = "Armed conflict",
                  "rainfall" = "Average rainfall",
                  "earthquake" = "Earthquake",
                  "drought" = "Drought")
-screenreg(list(matmormod, out.matmor, un5mormod, out.un5mor, infmormod, out.infmor, neomormod, out.neomor), 
+screenreg(tosave, 
        ci.force = TRUE,
        custom.coef.map = keepvars,
        custom.model.names = c("Mat CC", "Mat MI", "Un5 CC", "Un5 MI", "Inf CC", "Inf MI", "Neo CC", "Neo MI"))
