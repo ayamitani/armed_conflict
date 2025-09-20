@@ -1,0 +1,250 @@
+"country_name" "country_code" "region" "sub_region" "region_code" "sub_region_code"
+"Afghanistan" "AFG" "Asia" "Southern Asia" 142 34
+"ýýland Islands" "ALA" "Europe" "Northern Europe" 150 154
+"Albania" "ALB" "Europe" "Southern Europe" 150 39
+"Algeria" "DZA" "Africa" "Northern Africa" 2 15
+"American Samoa" "ASM" "Oceania" "Polynesia" 9 61
+"Andorra" "AND" "Europe" "Southern Europe" 150 39
+"Angola" "AGO" "Africa" "Sub-Saharan Africa" 2 202
+"Anguilla" "AIA" "Americas" "Latin America and the Caribbean" 19 419
+"Antarctica" "ATA" "" "" NA NA
+"Antigua and Barbuda" "ATG" "Americas" "Latin America and the Caribbean" 19 419
+"Argentina" "ARG" "Americas" "Latin America and the Caribbean" 19 419
+"Armenia" "ARM" "Asia" "Western Asia" 142 145
+"Aruba" "ABW" "Americas" "Latin America and the Caribbean" 19 419
+"Australia" "AUS" "Oceania" "Australia and New Zealand" 9 53
+"Austria" "AUT" "Europe" "Western Europe" 150 155
+"Azerbaijan" "AZE" "Asia" "Western Asia" 142 145
+"Bahamas" "BHS" "Americas" "Latin America and the Caribbean" 19 419
+"Bahrain" "BHR" "Asia" "Western Asia" 142 145
+"Bangladesh" "BGD" "Asia" "Southern Asia" 142 34
+"Barbados" "BRB" "Americas" "Latin America and the Caribbean" 19 419
+"Belarus" "BLR" "Europe" "Eastern Europe" 150 151
+"Belgium" "BEL" "Europe" "Western Europe" 150 155
+"Belize" "BLZ" "Americas" "Latin America and the Caribbean" 19 419
+"Benin" "BEN" "Africa" "Sub-Saharan Africa" 2 202
+"Bermuda" "BMU" "Americas" "Northern America" 19 21
+"Bhutan" "BTN" "Asia" "Southern Asia" 142 34
+"Bolivia (Plurinational State of)" "BOL" "Americas" "Latin America and the Caribbean" 19 419
+"Bonaire, Sint Eustatius and Saba" "BES" "Americas" "Latin America and the Caribbean" 19 419
+"Bosnia and Herzegovina" "BIH" "Europe" "Southern Europe" 150 39
+"Botswana" "BWA" "Africa" "Sub-Saharan Africa" 2 202
+"Bouvet Island" "BVT" "Americas" "Latin America and the Caribbean" 19 419
+"Brazil" "BRA" "Americas" "Latin America and the Caribbean" 19 419
+"British Indian Ocean Territory" "IOT" "Africa" "Sub-Saharan Africa" 2 202
+"Brunei Darussalam" "BRN" "Asia" "South-eastern Asia" 142 35
+"Bulgaria" "BGR" "Europe" "Eastern Europe" 150 151
+"Burkina Faso" "BFA" "Africa" "Sub-Saharan Africa" 2 202
+"Burundi" "BDI" "Africa" "Sub-Saharan Africa" 2 202
+"Cabo Verde" "CPV" "Africa" "Sub-Saharan Africa" 2 202
+"Cambodia" "KHM" "Asia" "South-eastern Asia" 142 35
+"Cameroon" "CMR" "Africa" "Sub-Saharan Africa" 2 202
+"Canada" "CAN" "Americas" "Northern America" 19 21
+"Cayman Islands" "CYM" "Americas" "Latin America and the Caribbean" 19 419
+"Central African Republic" "CAF" "Africa" "Sub-Saharan Africa" 2 202
+"Chad" "TCD" "Africa" "Sub-Saharan Africa" 2 202
+"Chile" "CHL" "Americas" "Latin America and the Caribbean" 19 419
+"China" "CHN" "Asia" "Eastern Asia" 142 30
+"Christmas Island" "CXR" "Oceania" "Australia and New Zealand" 9 53
+"Cocos (Keeling) Islands" "CCK" "Oceania" "Australia and New Zealand" 9 53
+"Colombia" "COL" "Americas" "Latin America and the Caribbean" 19 419
+"Comoros" "COM" "Africa" "Sub-Saharan Africa" 2 202
+"Congo" "COG" "Africa" "Sub-Saharan Africa" 2 202
+"Congo, Democratic Republic of the" "COD" "Africa" "Sub-Saharan Africa" 2 202
+"Cook Islands" "COK" "Oceania" "Polynesia" 9 61
+"Costa Rica" "CRI" "Americas" "Latin America and the Caribbean" 19 419
+"Cï¿½ï¿½te d'Iv" "CIV" "Africa" "Sub-Saharan Africa" 2 202
+"Croatia" "HRV" "Europe" "Southern Europe" 150 39
+"Cuba" "CUB" "Americas" "Latin America and the Caribbean" 19 419
+"Curaï¿½ï" "CUW" "Americas" "Latin America and the Caribbean" 19 419
+"Cyprus" "CYP" "Asia" "Western Asia" 142 145
+"Czechia" "CZE" "Europe" "Eastern Europe" 150 151
+"Denmark" "DNK" "Europe" "Northern Europe" 150 154
+"Djibouti" "DJI" "Africa" "Sub-Saharan Africa" 2 202
+"Dominica" "DMA" "Americas" "Latin America and the Caribbean" 19 419
+"Dominican Republic" "DOM" "Americas" "Latin America and the Caribbean" 19 419
+"Ecuador" "ECU" "Americas" "Latin America and the Caribbean" 19 419
+"Egypt" "EGY" "Africa" "Northern Africa" 2 15
+"El Salvador" "SLV" "Americas" "Latin America and the Caribbean" 19 419
+"Equatorial Guinea" "GNQ" "Africa" "Sub-Saharan Africa" 2 202
+"Eritrea" "ERI" "Africa" "Sub-Saharan Africa" 2 202
+"Estonia" "EST" "Europe" "Northern Europe" 150 154
+"Eswatini" "SWZ" "Africa" "Sub-Saharan Africa" 2 202
+"Ethiopia" "ETH" "Africa" "Sub-Saharan Africa" 2 202
+"Falkland Islands (Malvinas)" "FLK" "Americas" "Latin America and the Caribbean" 19 419
+"Faroe Islands" "FRO" "Europe" "Northern Europe" 150 154
+"Fiji" "FJI" "Oceania" "Melanesia" 9 54
+"Finland" "FIN" "Europe" "Northern Europe" 150 154
+"France" "FRA" "Europe" "Western Europe" 150 155
+"French Guiana" "GUF" "Americas" "Latin America and the Caribbean" 19 419
+"French Polynesia" "PYF" "Oceania" "Polynesia" 9 61
+"French Southern Territories" "ATF" "Africa" "Sub-Saharan Africa" 2 202
+"Gabon" "GAB" "Africa" "Sub-Saharan Africa" 2 202
+"Gambia" "GMB" "Africa" "Sub-Saharan Africa" 2 202
+"Georgia" "GEO" "Asia" "Western Asia" 142 145
+"Germany" "DEU" "Europe" "Western Europe" 150 155
+"Ghana" "GHA" "Africa" "Sub-Saharan Africa" 2 202
+"Gibraltar" "GIB" "Europe" "Southern Europe" 150 39
+"Greece" "GRC" "Europe" "Southern Europe" 150 39
+"Greenland" "GRL" "Americas" "Northern America" 19 21
+"Grenada" "GRD" "Americas" "Latin America and the Caribbean" 19 419
+"Guadeloupe" "GLP" "Americas" "Latin America and the Caribbean" 19 419
+"Guam" "GUM" "Oceania" "Micronesia" 9 57
+"Guatemala" "GTM" "Americas" "Latin America and the Caribbean" 19 419
+"Guernsey" "GGY" "Europe" "Northern Europe" 150 154
+"Guinea" "GIN" "Africa" "Sub-Saharan Africa" 2 202
+"Guinea-Bissau" "GNB" "Africa" "Sub-Saharan Africa" 2 202
+"Guyana" "GUY" "Americas" "Latin America and the Caribbean" 19 419
+"Haiti" "HTI" "Americas" "Latin America and the Caribbean" 19 419
+"Heard Island and McDonald Islands" "HMD" "Oceania" "Australia and New Zealand" 9 53
+"Holy See" "VAT" "Europe" "Southern Europe" 150 39
+"Honduras" "HND" "Americas" "Latin America and the Caribbean" 19 419
+"Hong Kong" "HKG" "Asia" "Eastern Asia" 142 30
+"Hungary" "HUN" "Europe" "Eastern Europe" 150 151
+"Iceland" "ISL" "Europe" "Northern Europe" 150 154
+"India" "IND" "Asia" "Southern Asia" 142 34
+"Indonesia" "IDN" "Asia" "South-eastern Asia" 142 35
+"Iran (Islamic Republic of)" "IRN" "Asia" "Southern Asia" 142 34
+"Iraq" "IRQ" "Asia" "Western Asia" 142 145
+"Ireland" "IRL" "Europe" "Northern Europe" 150 154
+"Isle of Man" "IMN" "Europe" "Northern Europe" 150 154
+"Israel" "ISR" "Asia" "Western Asia" 142 145
+"Italy" "ITA" "Europe" "Southern Europe" 150 39
+"Jamaica" "JAM" "Americas" "Latin America and the Caribbean" 19 419
+"Japan" "JPN" "Asia" "Eastern Asia" 142 30
+"Jersey" "JEY" "Europe" "Northern Europe" 150 154
+"Jordan" "JOR" "Asia" "Western Asia" 142 145
+"Kazakhstan" "KAZ" "Asia" "Central Asia" 142 143
+"Kenya" "KEN" "Africa" "Sub-Saharan Africa" 2 202
+"Kiribati" "KIR" "Oceania" "Micronesia" 9 57
+"Korea (Democratic People's Republic of)" "PRK" "Asia" "Eastern Asia" 142 30
+"Korea, Republic of" "KOR" "Asia" "Eastern Asia" 142 30
+"Kuwait" "KWT" "Asia" "Western Asia" 142 145
+"Kyrgyzstan" "KGZ" "Asia" "Central Asia" 142 143
+"Lao People's Democratic Republic" "LAO" "Asia" "South-eastern Asia" 142 35
+"Latvia" "LVA" "Europe" "Northern Europe" 150 154
+"Lebanon" "LBN" "Asia" "Western Asia" 142 145
+"Lesotho" "LSO" "Africa" "Sub-Saharan Africa" 2 202
+"Liberia" "LBR" "Africa" "Sub-Saharan Africa" 2 202
+"Libya" "LBY" "Africa" "Northern Africa" 2 15
+"Liechtenstein" "LIE" "Europe" "Western Europe" 150 155
+"Lithuania" "LTU" "Europe" "Northern Europe" 150 154
+"Luxembourg" "LUX" "Europe" "Western Europe" 150 155
+"Macao" "MAC" "Asia" "Eastern Asia" 142 30
+"Madagascar" "MDG" "Africa" "Sub-Saharan Africa" 2 202
+"Malawi" "MWI" "Africa" "Sub-Saharan Africa" 2 202
+"Malaysia" "MYS" "Asia" "South-eastern Asia" 142 35
+"Maldives" "MDV" "Asia" "Southern Asia" 142 34
+"Mali" "MLI" "Africa" "Sub-Saharan Africa" 2 202
+"Malta" "MLT" "Europe" "Southern Europe" 150 39
+"Marshall Islands" "MHL" "Oceania" "Micronesia" 9 57
+"Martinique" "MTQ" "Americas" "Latin America and the Caribbean" 19 419
+"Mauritania" "MRT" "Africa" "Sub-Saharan Africa" 2 202
+"Mauritius" "MUS" "Africa" "Sub-Saharan Africa" 2 202
+"Mayotte" "MYT" "Africa" "Sub-Saharan Africa" 2 202
+"Mexico" "MEX" "Americas" "Latin America and the Caribbean" 19 419
+"Micronesia (Federated States of)" "FSM" "Oceania" "Micronesia" 9 57
+"Moldova, Republic of" "MDA" "Europe" "Eastern Europe" 150 151
+"Monaco" "MCO" "Europe" "Western Europe" 150 155
+"Mongolia" "MNG" "Asia" "Eastern Asia" 142 30
+"Montenegro" "MNE" "Europe" "Southern Europe" 150 39
+"Montserrat" "MSR" "Americas" "Latin America and the Caribbean" 19 419
+"Morocco" "MAR" "Africa" "Northern Africa" 2 15
+"Mozambique" "MOZ" "Africa" "Sub-Saharan Africa" 2 202
+"Myanmar" "MMR" "Asia" "South-eastern Asia" 142 35
+"Namibia" "NAM" "Africa" "Sub-Saharan Africa" 2 202
+"Nauru" "NRU" "Oceania" "Micronesia" 9 57
+"Nepal" "NPL" "Asia" "Southern Asia" 142 34
+"Netherlands" "NLD" "Europe" "Western Europe" 150 155
+"New Caledonia" "NCL" "Oceania" "Melanesia" 9 54
+"New Zealand" "NZL" "Oceania" "Australia and New Zealand" 9 53
+"Nicaragua" "NIC" "Americas" "Latin America and the Caribbean" 19 419
+"Niger" "NER" "Africa" "Sub-Saharan Africa" 2 202
+"Nigeria" "NGA" "Africa" "Sub-Saharan Africa" 2 202
+"Niue" "NIU" "Oceania" "Polynesia" 9 61
+"Norfolk Island" "NFK" "Oceania" "Australia and New Zealand" 9 53
+"North Macedonia" "MKD" "Europe" "Southern Europe" 150 39
+"Northern Mariana Islands" "MNP" "Oceania" "Micronesia" 9 57
+"Norway" "NOR" "Europe" "Northern Europe" 150 154
+"Oman" "OMN" "Asia" "Western Asia" 142 145
+"Pakistan" "PAK" "Asia" "Southern Asia" 142 34
+"Palau" "PLW" "Oceania" "Micronesia" 9 57
+"Palestine, State of" "PSE" "Asia" "Western Asia" 142 145
+"Panama" "PAN" "Americas" "Latin America and the Caribbean" 19 419
+"Papua New Guinea" "PNG" "Oceania" "Melanesia" 9 54
+"Paraguay" "PRY" "Americas" "Latin America and the Caribbean" 19 419
+"Peru" "PER" "Americas" "Latin America and the Caribbean" 19 419
+"Philippines" "PHL" "Asia" "South-eastern Asia" 142 35
+"Pitcairn" "PCN" "Oceania" "Polynesia" 9 61
+"Poland" "POL" "Europe" "Eastern Europe" 150 151
+"Portugal" "PRT" "Europe" "Southern Europe" 150 39
+"Puerto Rico" "PRI" "Americas" "Latin America and the Caribbean" 19 419
+"Qatar" "QAT" "Asia" "Western Asia" 142 145
+"Rï¿½ï¿½u" "REU" "Africa" "Sub-Saharan Africa" 2 202
+"Romania" "ROU" "Europe" "Eastern Europe" 150 151
+"Russian Federation" "RUS" "Europe" "Eastern Europe" 150 151
+"Rwanda" "RWA" "Africa" "Sub-Saharan Africa" 2 202
+"Saint Barthï¿½ï¿½" "BLM" "Americas" "Latin America and the Caribbean" 19 419
+"Saint Helena, Ascension and Tristan da Cunha" "SHN" "Africa" "Sub-Saharan Africa" 2 202
+"Saint Kitts and Nevis" "KNA" "Americas" "Latin America and the Caribbean" 19 419
+"Saint Lucia" "LCA" "Americas" "Latin America and the Caribbean" 19 419
+"Saint Martin (French part)" "MAF" "Americas" "Latin America and the Caribbean" 19 419
+"Saint Pierre and Miquelon" "SPM" "Americas" "Northern America" 19 21
+"Saint Vincent and the Grenadines" "VCT" "Americas" "Latin America and the Caribbean" 19 419
+"Samoa" "WSM" "Oceania" "Polynesia" 9 61
+"San Marino" "SMR" "Europe" "Southern Europe" 150 39
+"Sao Tome and Principe" "STP" "Africa" "Sub-Saharan Africa" 2 202
+"Saudi Arabia" "SAU" "Asia" "Western Asia" 142 145
+"Senegal" "SEN" "Africa" "Sub-Saharan Africa" 2 202
+"Serbia" "SRB" "Europe" "Southern Europe" 150 39
+"Seychelles" "SYC" "Africa" "Sub-Saharan Africa" 2 202
+"Sierra Leone" "SLE" "Africa" "Sub-Saharan Africa" 2 202
+"Singapore" "SGP" "Asia" "South-eastern Asia" 142 35
+"Sint Maarten (Dutch part)" "SXM" "Americas" "Latin America and the Caribbean" 19 419
+"Slovakia" "SVK" "Europe" "Eastern Europe" 150 151
+"Slovenia" "SVN" "Europe" "Southern Europe" 150 39
+"Solomon Islands" "SLB" "Oceania" "Melanesia" 9 54
+"Somalia" "SOM" "Africa" "Sub-Saharan Africa" 2 202
+"South Africa" "ZAF" "Africa" "Sub-Saharan Africa" 2 202
+"South Georgia and the South Sandwich Islands" "SGS" "Americas" "Latin America and the Caribbean" 19 419
+"South Sudan" "SSD" "Africa" "Sub-Saharan Africa" 2 202
+"Spain" "ESP" "Europe" "Southern Europe" 150 39
+"Sri Lanka" "LKA" "Asia" "Southern Asia" 142 34
+"Sudan" "SDN" "Africa" "Northern Africa" 2 15
+"Suriname" "SUR" "Americas" "Latin America and the Caribbean" 19 419
+"Svalbard and Jan Mayen" "SJM" "Europe" "Northern Europe" 150 154
+"Sweden" "SWE" "Europe" "Northern Europe" 150 154
+"Switzerland" "CHE" "Europe" "Western Europe" 150 155
+"Syrian Arab Republic" "SYR" "Asia" "Western Asia" 142 145
+"Taiwan, Province of China" "TWN" "Asia" "Eastern Asia" 142 30
+"Tajikistan" "TJK" "Asia" "Central Asia" 142 143
+"Tanzania, United Republic of" "TZA" "Africa" "Sub-Saharan Africa" 2 202
+"Thailand" "THA" "Asia" "South-eastern Asia" 142 35
+"Timor-Leste" "TLS" "Asia" "South-eastern Asia" 142 35
+"Togo" "TGO" "Africa" "Sub-Saharan Africa" 2 202
+"Tokelau" "TKL" "Oceania" "Polynesia" 9 61
+"Tonga" "TON" "Oceania" "Polynesia" 9 61
+"Trinidad and Tobago" "TTO" "Americas" "Latin America and the Caribbean" 19 419
+"Tunisia" "TUN" "Africa" "Northern Africa" 2 15
+"Turkey" "TUR" "Asia" "Western Asia" 142 145
+"Turkmenistan" "TKM" "Asia" "Central Asia" 142 143
+"Turks and Caicos Islands" "TCA" "Americas" "Latin America and the Caribbean" 19 419
+"Tuvalu" "TUV" "Oceania" "Polynesia" 9 61
+"Uganda" "UGA" "Africa" "Sub-Saharan Africa" 2 202
+"Ukraine" "UKR" "Europe" "Eastern Europe" 150 151
+"United Arab Emirates" "ARE" "Asia" "Western Asia" 142 145
+"United Kingdom of Great Britain and Northern Ireland" "GBR" "Europe" "Northern Europe" 150 154
+"United States of America" "USA" "Americas" "Northern America" 19 21
+"United States Minor Outlying Islands" "UMI" "Oceania" "Micronesia" 9 57
+"Uruguay" "URY" "Americas" "Latin America and the Caribbean" 19 419
+"Uzbekistan" "UZB" "Asia" "Central Asia" 142 143
+"Vanuatu" "VUT" "Oceania" "Melanesia" 9 54
+"Venezuela (Bolivarian Republic of)" "VEN" "Americas" "Latin America and the Caribbean" 19 419
+"Viet Nam" "VNM" "Asia" "South-eastern Asia" 142 35
+"Virgin Islands (British)" "VGB" "Americas" "Latin America and the Caribbean" 19 419
+"Virgin Islands (U.S.)" "VIR" "Americas" "Latin America and the Caribbean" 19 419
+"Wallis and Futuna" "WLF" "Oceania" "Polynesia" 9 61
+"Western Sahara" "ESH" "Africa" "Northern Africa" 2 15
+"Yemen" "YEM" "Asia" "Western Asia" 142 145
+"Zambia" "ZMB" "Africa" "Sub-Saharan Africa" 2 202
+"Zimbabwe" "ZWE" "Africa" "Sub-Saharan Africa" 2 202
