@@ -101,6 +101,7 @@ finaldata <- finaldata0 |>
          earthquake = replace_na(earthquake, 0)) |>
   group_by(iso, year) |>
   mutate(armed_conflict = lag(armed_conflict)) |>
-  ungroup()
+  ungroup() |>
+  arrange(iso, year)
 
 write.csv(finaldata, file = here("data", "analytical", "final_data.csv"), row.names = FALSE)
