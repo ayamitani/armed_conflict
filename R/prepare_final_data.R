@@ -77,7 +77,7 @@ conflict %>%
   # Outcome 1: Binary indicator of armed conflict (0 if <25, 1 if >= 25 battle related deaths) for each country-year
   group_by(iso, year) |>
   summarise(total_death = sum(best)) |>
-  mutate(armed_conflict0 = ifelse(total_death < 25, 0, 1)) |>
+  mutate(armed_conflict = ifelse(total_death < 25, 0, 1)) |>
   ungroup() |>
   # the exposure variable "armed_conflict" is lagged by a year in the model
   mutate(year = year + 1) |>
@@ -96,7 +96,7 @@ alllist |> reduce(full_join, by = c('iso', 'year')) -> finaldata0
 
 # need to fill in NAs with 0's for armconf1, drought, earthquake
 finaldata <- finaldata0 |>
-  mutate(armed_conflict = replace_na(armed_conflict0, 0),
+  mutate(armed_conflict = replace_na(armed_conflict, 0),
          drought = replace_na(drought, 0),
          earthquake = replace_na(earthquake, 0)) |>
   group_by(iso, year) |>
