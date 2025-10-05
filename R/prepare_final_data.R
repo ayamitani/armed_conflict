@@ -80,6 +80,7 @@ conflict %>%
   mutate(armed_conflict0 = ifelse(total_death < 25, 0, 1)) |>
   ungroup() |>
   # the exposure variable "armed_conflict" is lagged by a year in the model
+  mutate(year = year + 1) |>
   dplyr::select(-total_death) -> confdata
 
 
