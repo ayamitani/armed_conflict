@@ -1,0 +1,67 @@
+---
+title: "Create Table 1 in PDF (One way to include header for armed conflict)"
+format: pdf
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+source("../.Rprofile")
+```
+
+```{r}
+#| echo: FALSE
+conflict <- read.csv(here("data", "analytical", "final_data.csv"), header = TRUE)
+
+conflict$armed_conflict <- factor(conflict$armed_conflict, levels = c(0,1), labels = c("No", "Yes"))
+conflict$drought <- factor(conflict$drought, levels = c(0,1), labels = c("No", "Yes"))
+conflict$earthquake <- factor(conflict$earthquake, levels = c(0,1), labels = c("No", "Yes"))
+conflict$oecd <- factor(conflict$oecd, levels = c(0,1), labels = c("No", "Yes"))
+
+label(conflict$gdp_1000)             <- "GDP per capita"
+label(conflict$oecd)                 <- "OECD member"
+label(conflict$pop_dens)             <- "Population density"
+label(conflict$urban)                <- "Urban residence"
+label(conflict$age_dep)              <- "Age dependency ratio"
+label(conflict$male_edu)             <- "Male education"
+label(conflict$temp)                 <- "Mean annual temperature"
+label(conflict$rainfall_1000)        <- "Mean annual rain fall"
+label(conflict$earthquake)           <- "Earthquake"
+label(conflict$drought)              <- "Drought"
+label(conflict$armed_conflict)       <- "Armed conflict"
+label(conflict$maternal_mortality)   <- "Maternal mortality"
+label(conflict$infant_mortality)     <- "Infant mortality"
+label(conflict$neonatal_mortality)   <- "Neonatal mortality"
+label(conflict$under5_mortality)     <- "Under 5 mortality"
+
+
+
+units(conflict$gdp_1000)       <- "USD"
+#units(baseline$popdens) <- "% of population living in a density of >1,000 people/km^2"
+
+
+mytable1 <- 
+table1(~ gdp_1000 + oecd + pop_dens + urban + age_dep + male_edu + temp + earthquake + drought + rainfall_1000 + maternal_mortality + infant_mortality + neonatal_mortality + under5_mortality | armed_conflict, data = conflict,
+        render.continuous = c(.="Median [Min, Max]"),
+        overall=c(left="Total"))
+```
+
+
+```{r}
+#| echo: FALSE
+t1kable(mytable1) %>%
+  add_header_above(c(" "=2, "Armed conflict" = 2))
+```
+
+
+```{r}
+#| echo: FALSE
+ft1 <- t1flex(mytable1) 
+add_header_row(ft1,
+  values = c("", "Armed conflict"),
+  colwidths = c(2, 2))
+```
+
+
+
+
