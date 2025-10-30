@@ -1,0 +1,61 @@
+---
+title: "The association between armed conflict and maternal and child mortality adjusted for covariates"
+format: html
+editor: source
+embed-resources: true
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(here)
+library(tidyverse)
+library(kableExtra)
+library(texreg)
+library(plm)
+```
+
+
+```{r}
+#| echo: false
+finaldata <- read.csv(here("data", "analytical", "final_data.csv"), header = TRUE)
+
+finaldata$loggdp <- log(finaldata$gdp)
+
+preds <- as.formula(" ~ armed_conflict + loggdp + oecd + pop_dens + urban +
+              age_dep + male_edu + temp + rainfall_1000 + earthquake + drought")
+
+matmormod <- plm(update.formula(preds, maternal_mortality ~ .), index = c("iso", "year"), effect = "twoways",
+                 model = "within", data = finaldata)
+un5mormod <- plm(update.formula(preds, under5_mortality ~ .), index = c("iso", "year"), effect = "twoways",
+                 model = "within", data = finaldata)
+infmormod <- plm(update.formula(preds, infant_mortality ~ .), index = c("iso", "year"), effect = "twoways",
+                 model = "within", data = finaldata)
+neomormod <- plm(update.formula(preds, neonatal_mortality ~ .), index = c("iso", "year"), effect = "twoways",
+                 model = "within", data = finaldata)
+```
+
+
+```{r}
+#| echo: false
+#| output: asis
+
+keepvars <- list("armed_conflict" = "Armed conflict",
+                 "loggdp" = "log(GDP)",
+                 "oecd" = "OECD",
+                 "pop_dens" = "Population density",
+                 "urban" = "Urban residence",
+                 "age_dep" = "Age dependency",
+                 "male_edu" = "Male education",
+                 "temp" = "Average temperature",
+                 "rainfall_1000" = "Average rainfall",
+                 "earthquake" = "Earthquake",
+                 "drought" = "Drought")
+library(texreg)
+htmlreg(list(matmormod, un5mormod, infmormod, neomormod), 
+        ci.force = TRUE,
+        custom.coef.map = keepvars,
+        custom.model.names = c("Maternal mortality", "Under-5 mortality",
+                               "Infant mortality", "Neonatal mortality"))
+```
