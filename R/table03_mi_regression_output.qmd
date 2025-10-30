@@ -1,0 +1,38 @@
+---
+title: "Table comparing CC and MI analyses"
+format: pdf
+embed-resources: true
+editor: source
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(here)
+library(tidyverse)
+library(kableExtra)
+library(texreg)
+library(plm)
+```
+
+```{r}
+#| output: asis
+
+load(here("output", "mi_output.Rdata"))
+keepvars <- list("armconf1" = "Armed conflict",
+                 "loggdp" = "log(GDP)",
+                 "OECD" = "OECD",
+                 "pctpopdens" = "Population density",
+                 "urban" = "Urban",
+                 "agedep" = "Age dependency",
+                 "male_edu" = "Male education",
+                 "temp" = "Average temperature",
+                 "rainfall" = "Average rainfall",
+                 "earthquake" = "Earthquake",
+                 "drought" = "Drought")
+texreg(list(matmormod, out.matmor, un5mormod, out.un5mor, infmormod, out.infmor, neomormod, out.neomor), 
+        ci.force = TRUE,
+        custom.coef.map = keepvars,
+        custom.model.names = c("Mat CC", "Mat MI", "Un5 CC", "Un5 MI", "Inf CC", "Inf MI", "Neo CC", "Neo MI"))
+```
