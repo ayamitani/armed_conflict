@@ -3,11 +3,12 @@
 ##############################################################
 
 
-
 library(naniar)
 library(mice)
 
 finaldata <- read.csv(here("data", "analytical", "final_data.csv"))
+
+## log-transform GDP, save iso as numeric
 
 midata <- finaldata |>
   mutate(loggdp = log(gdp_1000),
@@ -30,11 +31,11 @@ pred[c("urban", "male_edu", "temp", "rainfall_1000", "loggdp", "pop_dens",
 
 
 
-## Apply MI
+## MI with mice package
 
-## Perform MI with `m=10` imputations
+## Perform MI with `m=2` imputations
 
-mice.multi.out  <- mice(midata, seed = 100, m = 10, maxit = 20,
+mice.multi.out  <- mice(midata, seed = 100, m = 2, maxit = 3,
                         method = meth,
                         predictorMatrix = pred)
 plot(mice.multi.out)
@@ -45,6 +46,31 @@ fit.mi.matmor <- with(mice.multi.out,
                            age_dep + male_edu + temp + rainfall_1000 + earthquake + drought + 
                            as.factor(iso_num) + as.factor(year)))
 out.mi.matmor <- pool(fit.mi.matmor)
+summaey(our.mi.matmor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 head(finaldata)
